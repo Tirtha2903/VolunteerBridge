@@ -202,14 +202,7 @@ body::before {
   overflow: hidden;
 }
 
-.stat-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 2px;
-  background: var(--accent, var(--green));
-  opacity: 0.7;
-}
+/* top accent border now applied directly via inline style in Dashboard.jsx */
 
 .stat-card:hover {
   transform: translateY(-3px);
